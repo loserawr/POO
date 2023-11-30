@@ -28,7 +28,7 @@ public void setValorHora(double valorHora) {
     this.valorHora = valorHora;
 }
 
-public double calculoHora() { //metodo exclusivo para calcular o salario do funcinario horalista com base nas horas trabalhadas, usando 25 reais como valor da hora
+public double calculoHora() { //metodo exclusivo para calcular o salario do funcinario horalista com base nas horas trabalhadas, usando 12 reais como valor da hora
     valorHora = 12;
     return salarioHora = getHorasTrab() * (valorHora);
     
